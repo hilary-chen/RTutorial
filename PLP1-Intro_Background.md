@@ -19,5 +19,6 @@ There are currently two development versions of R:
 
 
 #SOURCES
+* Joshua F. Wiley & Larry A. Pace. *Beginning R: An introduction to statistical programming (2nd ed.)* Apress, 2015.
 * The R Project for Statistical Computing. https://www.r-project.org/. Accessed Jan. 22, 2016.
 * Wikipedia.org. https://en.wikipedia.org/wiki/R_%28programming_language%29. Accessed Jan. 22, 2016.
