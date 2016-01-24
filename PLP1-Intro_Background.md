@@ -15,10 +15,19 @@ The beginnings of its development began at the University of Auckland, in 1992. 
 By 1994, a introductory version is completed and is released free to the a select list of people. Finally, after years of responding to bug reports and comments, in 2000, it was realeased to the public as a free software project. 
 
 #USAGE
+As mentioned earlier, R is used for statistical purposes and also data representation. R is also further used for conducting statistical analysis, creating software for those purposes, or in web applications. It is used quite largely by data miners or those in the statistics field. 
 
+The most popular Github projects, using R, are:
+  1. a system of plotting for R (using the basis of graphics) https://github.com/hadley/ggplot2
+  2. a package that can be used in RStudio that can be used to create web applications in R https://github.com/rstudio/shiny
+  3. a platform to learn and teach R https://github.com/swirldev/swirl_courses
 
 #RESOURCES
+The resources that I will use for this semester will be from two introductory R textbooks:
+  1. *R for Dummies (2nd ed.)*
+  2. *Beginning R: An Introduction to Statistical Programming (2nd ed.)*
 
+I will also be using the [R-Project website](https://www.r-project.org/) for more insight on how R can be used. Additionally, StackOverFlow.com may be a useful resource if I am having trouble; however, I understand that certain answers provided on StackOverFlow are not 100% accurate.
 
 #SOURCES
 * Andrie de Vries & Joris Meys. *R for Dummies (2nd ed.)*. John Wiley & Sons, 2015. 
