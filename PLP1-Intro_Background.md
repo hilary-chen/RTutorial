@@ -1,7 +1,7 @@
 #R
 
-R is described, by the [R-Project](https://cran.r-project.org/doc/FAQ/R-FAQ.html#What-is-R_003f), as 
->"a system for statistical computation and graphics. It consists of a language plus a run-time environment with graphics, a debugger, access to certain system functions, and the ability to run programs stored in script files."<
+R is described, by the [R-Project](https://cran.r-project.org/doc/FAQ/R-FAQ.html#What-is-R_003f), as:
+>a system for statistical computation and graphics. It consists of a language plus a run-time environment with graphics, a debugger, access to certain system functions, and the ability to run programs stored in script files.
 
 In brief, R is a software enviornment (that is free) and programming language that is used primarily for statistical purposes, such as for computing or graphic presentation. it is a interpreted, functional language, where problems are modeled after using a series of mathematical functions.
 
