@@ -15,7 +15,7 @@ The beginnings of its development began at the University of Auckland, in 1992. 
 By 1994, a introductory version was completed and was released free to a select email list of people. Finally, after years of responding to bug reports and comments, in 2000, it was realeased to the public as a free software project. 
 
 #USAGE
-As mentioned earlier, R is used for statistical purposes and also data representation. R is also further used for conducting statistical analysis, creating software for those purposes, or used in web applications. It is used quite largely by data miners or those in the statistics field. 
+As mentioned earlier, R is used for statistical purposes and also data representation. R is also further used for conducting statistical analysis, creating software for those purposes, or used in web applications. It is used quite largely by data miners or those in the statistics field. Scripts can be written using R to do smaller tasks that may be implemented in larger programs.
 
 The most popular Github projects, using R, are:
   1. a system of plotting for R (using the basis of graphics) https://github.com/hadley/ggplot2
