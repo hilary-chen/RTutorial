@@ -27,7 +27,9 @@ The resources that I will use for this semester will be from two introductory R 
   1. *R for Dummies (2nd ed.)*
   2. *Beginning R: An Introduction to Statistical Programming (2nd ed.)*
 
-I will also be using the [R-Project website](https://www.r-project.org/) for more insight on how R can be used. Additionally, StackOverFlow.com may be a useful resource if I am having trouble; however, I understand that certain answers provided on StackOverFlow are not 100% accurate.
+I will also be using the [R-Project website](https://www.r-project.org/) for more insight on how R can be used. 
+
+Additionally, online resources can be helpful. StackOverFlow.com may be a useful resource if I am having trouble; however, I understand that certain answers provided on StackOverFlow are not 100% accurate. Also, there is a website that teaches you the basics of R, which may be the first place I look into: [CodeSchool](http://tryr.codeschool.com/).
 
 #SOURCES
 * Andrie de Vries & Joris Meys. *R for Dummies (2nd ed.)*. John Wiley & Sons, 2015. 
