@@ -10,7 +10,7 @@ There are currently two development versions of R:
   2. *r-devel* - This is a developmental version that is used to implement changes to R that may be later released. 
 
 #HISTORY
-The beginnings of its development began at the University of Auckland, in 1992. R was originally developed as a way to teach intro-level statistics at the University--initiated by Robert Gentleman and Ross Ihaka. R gets a lot of its "inspiration" and derivation from S (for its syntax) and Scheme (for its semantics). 
+The beginnings of its development began at the University of Auckland, in 1992. R was originally developed as a way to teach intro-level statistics at the University--initiated by Robert Gentleman and Ross Ihaka. R gets a lot of its "inspiration" and derivation from Lisp, S (for its syntax), and Scheme (for its semantics). 
 
 By 1994, a introductory version was completed and was released free to a select email list of people. Finally, after years of responding to bug reports and comments, in 2000, it was realeased to the public as a free software project. 
 
