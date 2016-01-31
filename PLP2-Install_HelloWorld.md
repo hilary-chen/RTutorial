@@ -26,7 +26,7 @@ After installing RStudio, we are able to program R in a user-friendly enviornmen
 
 2. In the *Console* Window, you can type:
 ```R  
-source("helloWorld.r")
+source("helloWorld.R")
 ```
 
 You can also write scripts in text editors that can be later used in RStudio. 
@@ -44,7 +44,9 @@ print("Hello, World!")
 **Insert Comments**
 
 To write comments in R, a number sign (#) is used in front of the line.
+```R
  # This is how to comment in R.
+ ```
  
 #RESOURCES
 
