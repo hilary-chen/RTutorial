@@ -19,28 +19,39 @@ RStudio is also a good front-end enviornment to use to program with R. You can d
 #PROGRAMMING WITH R
 
 **Creating and Running a R File**
+
 After installing RStudio, we are able to program R in a user-friendly enviornment. R is typed into the *Source Code* section of the interface. There are two ways to run the R file, with the extension .R:
+
 1. Press the 'Run' or 'Source' button in the *Source Code* section. The 'Run' will simply run it. The 'Source' button will run it and also output the source location of the file.
+
 2. In the *Console* Window, you can type:
   source("helloWorld.r")
 
 You can also write scripts in text editors that can be later used in RStudio. 
 
 **Writing in R**
+
 In R, there is no a boiler-plate code needed to write a program. You can simply start writing.
 
 **Hello World Program**
+
 To output "Hello, World" in R is very straight-forward.
 
 print("Hello, World!")
 
 **Insert Comments**
+
 To write comments in R, a number sign (#) is used in front of the line.
  # This is how to comment in R.
  
 #RESOURCES
+
 * Andrie de Vries & Joris Meys. R for Dummies (2nd ed.). John Wiley & Sons, 2015.
+
 * Biomedical Statistics 0.2. http://a-little-book-of-r-for-biomedical-statistics.readthedocs.org/en/latest/src/installr.html. Accessed Jan. 31, 2016.
+
 * R Examples. http://www.rexamples.com/8/How%20to%20run%20the%20code. Accessed Jan. 31, 2016.
+
 * RStudio. https://www.rstudio.com/products/rstudio/. Accessed Jan. 31, 2016.
+
 * The R Project for Statistical Computing. https://www.r-project.org/. Accessed Jan. 31, 2016.
