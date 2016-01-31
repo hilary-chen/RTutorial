@@ -25,7 +25,9 @@ After installing RStudio, we are able to program R in a user-friendly enviornmen
 1. Press the 'Run' or 'Source' button in the *Source Code* section. The 'Run' will simply run it. The 'Source' button will run it and also output the source location of the file.
 
 2. In the *Console* Window, you can type:
-  source("helloWorld.r")
+```R  
+source("helloWorld.r")
+```
 
 You can also write scripts in text editors that can be later used in RStudio. 
 
@@ -36,9 +38,9 @@ In R, there is no a boiler-plate code needed to write a program. You can simply 
 **Hello World Program**
 
 To output "Hello, World" in R is very straight-forward.
-
+```R
 print("Hello, World!")
-
+```
 **Insert Comments**
 
 To write comments in R, a number sign (#) is used in front of the line.
