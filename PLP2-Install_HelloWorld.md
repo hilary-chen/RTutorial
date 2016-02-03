@@ -39,7 +39,7 @@ In R, there is no a boiler-plate code needed to write a program. You can simply 
 
 To output "Hello, World" in R is very straight-forward.
 ```R
-print("Hello, World!")
+cat("Hello, World!")
 ```
 **Insert Comments**
 
