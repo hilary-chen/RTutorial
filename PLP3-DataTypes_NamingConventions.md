@@ -85,7 +85,7 @@ is.string(check)
 The output will return in a TRUE or FALSE value depending if the variable is or is not the data type specified.
 
 #RECAP - CONVERTING BETWEEN DATA TYPES
-As mentioned briefly earlier, in R, it is also possible to change a variable into a different type with a built-in function. As mentioned aboved, you can simpl use the as function. It must be specified what type of data type though. For example, as.integer() will make it an integer value.
+In R, it is also possible to change a variable into a different type with a built-in function. As mentioned aboved, you can simply use the as function. It must be specified what type of data type though. For example, as.integer() will make it an integer value.
 
 
 
