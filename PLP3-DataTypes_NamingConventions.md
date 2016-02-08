@@ -6,44 +6,72 @@ Examples of how some are represented are listed below:
 
 * <b>In R, the default data type are decimal numerical values.</b> Whether a float or an int is assigned as the value for the variable, it is a "numeric" value.
 
+What seems to be an int but is still simply a numeric:
 ```#int
 val1=62
 ```
+What seems to be a floating-point but is still simply a numeric:
 ```#floating-point
 val2=19.95
 ```
+To change the numeric into an integer type, you can use the as.integer function in R.
+```
+example1=as.integer(20)
+```
 
-* <b>string</b>
+* <b>In R, strings are represented as a character object.</b> To have a string, you must use quotation marks around the string. Furthermore, you can also have numeric values entered as a string.
 ```
+myName="Hilary"
+birthMonth=as.character(6)
 ```
+Both are proper ways to instantiate string values.
 
 * <b>floating-point number</b>
 ```
 ```
 
-* <b>boolean</b>
+* <b>Logical Values/Booleans.</b> They compare variables within a condition specified. Similar to other programming languages, &, |, and ! are also used. & means and, | means or, and ! means the negation of. 
 ```
+a=1
+b=2
+c=a>b
+!c
 ```
+Variable c will result in TRUE because of the negation of a is greater than b.
 
-* <b>array/list</b>
+* <b>Vectors are similar to arrays and lists, where a sequnece of data with the same data type are stored.</b> To add values to a vector, you must use c().
 ```
+vec1 <- c(1,2,3,4,5)
+vec2 <- c("a","b","c","d","e")
 ```
+In this example, vec1 now is a vector of the values 1,2,3,4,5, while vec2 is now a vector with the characters a through e. 
 
 * <b>hash/dictionary</b>
 ```
 ```
 
-Even though it is not needed in R to specify the data type immediately, there is a built-in function within R to see which data type a variable is.
+
+Even though it is not needed in R to specify the data type immediately, there is a built-in function within R to see which data type a variable is. 
+
+One method is to see what class it belows to.
 ```
 number1=12.5
 class(number2)
 number2=8
 class(number2)
 ```
-The output for both variables indicate that they are both numeric value.
+The output for both variables will indicate that they are both numeric value.
 
-#CONVERTING BETWEEN DATA TYPES
-In R, it is also possible to change a variable into a different type with a built-in function.
+Another method is to use the is function.
+```
+check=10
+is.integer(check)
+is.string(check)
+```
+The output will return in a TRUE or FALSE value depending if the variable is or is not the data type specified.
+
+#RECAP - CONVERTING BETWEEN DATA TYPES
+In R, it is also possible to change a variable into a different type with a built-in function. As mentioned aboved, you can simpl use the as function. It must be specified what type of data type though. For example, as.integer() will make it an integer value.
 ```
 ```
 
