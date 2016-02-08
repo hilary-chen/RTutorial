@@ -1,6 +1,6 @@
 #R
 #DATA TYPES
-R does not require that data types be declared, as they will still be able to create the variables that store the data types of information. R specifies its data types in groups of scalars, vectors (which emcompass numerical digits, characters, and logic), data sets/frames, lists, and matrices.
+R does not require that data types be declared, as they will still be able to create the variables that store the data types of information. They are defaulted to being decimal numerical values, but they can be changed with the as function.
 
 Examples of how some are represented are listed below:
 
@@ -26,9 +26,6 @@ birthMonth=as.character(6)
 ```
 Both are proper ways to instantiate string values.
 
-* <b>floating-point number</b>
-```
-```
 
 * <b>Logical Values/Booleans.</b> They compare variables within a condition specified. Similar to other programming languages, &, |, and ! are also used. & means and, | means or, and ! means the negation of. 
 ```
@@ -36,19 +33,36 @@ a=1
 b=2
 c=a>b
 !c
+d=TRUE
 ```
-Variable c will result in TRUE because of the negation of a is greater than b.
+In this example, c will result in TRUE because of the negation of a is greater than b. d is also TRUE.
 
-* <b>Vectors are similar to arrays and lists, where a sequnece of data with the same data type are stored.</b> To add values to a vector, you must use c().
+* <b>Matrices and Lists are similar to arrays, where a sequnece of data with the same data type are stored.</b> To add values to a vector, you must use c(). They must be of the same basic data type however.
 ```
-vec1 <- c(1,2,3,4,5)
-vec2 <- c("a","b","c","d","e")
+mat1 <- c(1,2,3,4,5)
+mat2 <- c("a","b","c","d","e")
+matr <- matrix(cells, nrow=2, ncol=2, byrow=TRUE, dimnames=list(mat1, mat2).
 ```
-In this example, vec1 now is a vector of the values 1,2,3,4,5, while vec2 is now a vector with the characters a through e. 
+In this example, mat1 now is a vector of the values 1,2,3,4,5, while mat2 is now a vector with the characters a through e. They will be put into a matrix that has the dimensions, mat1 by mat2 with 2 rows and 2 columns. 
 
-* <b>hash/dictionary</b>
+Lists can contain a broader range. In R, lists are recursive and can hold values of differing data types. This means it can also hold other lists.
 ```
+list1 <- list(fName="Hilary",age=99,numbers=mat1, matr)
 ```
+
+* <b>In R, there are no hash maps/dictionary.</b> Instead we use lists and matrices to have a structure similar to hash tables. 
+```
+hashEx = list(ex1="no", ex2=2)
+hashEx[1]
+hashEx$ex2
+```
+The result in this example is:
+```
+no
+2
+```
+An example I found online that better shows how to do a hashmap with a key is from StackOverFlow. http://stackoverflow.com/questions/7432248/how-to-use-the-value-of-a-variable-as-key-in-an-r-environment
+
 
 
 Even though it is not needed in R to specify the data type immediately, there is a built-in function within R to see which data type a variable is. 
@@ -71,9 +85,9 @@ is.string(check)
 The output will return in a TRUE or FALSE value depending if the variable is or is not the data type specified.
 
 #RECAP - CONVERTING BETWEEN DATA TYPES
-In R, it is also possible to change a variable into a different type with a built-in function. As mentioned aboved, you can simpl use the as function. It must be specified what type of data type though. For example, as.integer() will make it an integer value.
-```
-```
+As mentioned briefly earlier, in R, it is also possible to change a variable into a different type with a built-in function. As mentioned aboved, you can simpl use the as function. It must be specified what type of data type though. For example, as.integer() will make it an integer value.
+
+
 
 #SOME DATA TYPE FAQS
 * <b>What happens if you add an int and float together?</b> 
