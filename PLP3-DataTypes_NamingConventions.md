@@ -64,7 +64,7 @@ no
 An example I found online that better shows how to do a hashmap with a key is from StackOverFlow. http://stackoverflow.com/questions/7432248/how-to-use-the-value-of-a-variable-as-key-in-an-r-environment
 
 
-
+#CHECKING WHAT DATA TYPE
 Even though it is not needed in R to specify the data type immediately, there is a built-in function within R to see which data type a variable is. 
 
 One method is to see what class it belows to.
