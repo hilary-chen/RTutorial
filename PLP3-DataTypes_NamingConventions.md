@@ -37,7 +37,7 @@ d=TRUE
 ```
 In this example, c will result in TRUE because of the negation of a is greater than b. d is also TRUE.
 
-* <b>Matrices and Lists are similar to arrays, where a sequnece of data with the same data type are stored.</b> To add values to a vector, you must use c(). They must be of the same basic data type however.
+* <b>Matrices, Vectors, and Lists are similar to arrays, where a sequnece of data with the same data type are stored.</b> To add values to a vector, you must use c(). They must be of the same basic data type however.
 ```
 mat1 <- c(1,2,3,4,5)
 mat2 <- c("a","b","c","d","e")
