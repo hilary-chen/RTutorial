@@ -101,12 +101,12 @@ In R, it is also possible to change a variable into a different type with a buil
 
 #NAMING CONVENTIONS
 In R has some naming conventions for variables, objects, and functions, but they are very straightforward and should not cause too many problems. They are as follows:
-1. The name of the variable, function, or object must begin with either a letter character or a period/dot.
-2. If you named it starting with a period, the second character cannot be a numerical digit.
-3. Only letters, numerical digits, underscores, and dots should be used in the naming. "Although you can force R to accept other characters in names, you shouldn't, because these characters often have a special meaning in R," (Vries & Meys, 2015). 
-4. It is case-sensitive.
-5. Camel-case is commonly used.
-6. However, R doesn't use the period as an operator, which many other languages actually do. Therefore, they can be used when it comes to naming. This is known as the dotting style.
+ 1. The name of the variable, function, or object must begin with either a letter character or a period/dot.
+ 2. If you named it starting with a period, the second character cannot be a numerical digit.
+ 3. Only letters, numerical digits, underscores, and dots should be used in the naming. "Although you can force R to accept other characters in names, you shouldn't, because these characters often have a special meaning in R," (Vries & Meys, 2015). 
+ 4. It is case-sensitive.
+ 5. Camel-case is commonly used.
+ 6. However, R doesn't use the period as an operator, which many other languages actually do. Therefore, they can be used when it comes to naming. This is known as the dotting style.
  
 However, there are reserved keywords that cannot be used as names for variables, objects, or functions, such as: TRUE/FALSE, break, if, else, for, while, function, NULL/NA/NaN, etc. Other times, it gets confusing because some names of built-in functions can also be used as a name for a variable. R is intuitive enough to determine when you are using the built-in function versus when you are using the variable; however, errors may occur.
 
