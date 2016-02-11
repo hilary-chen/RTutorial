@@ -1,9 +1,9 @@
 #R
 
 #DATA TYPES
-R does not require that data types be declared, as they will still be able to create the variables that store the data types of information. They are defaulted to being decimal numerical values, but they can be changed with the as function. This makes it considered a weakly-typed language. R is also a dynamically typed language. dynamically- typed language. This means that type checks are done when run.
+R does not require that data types be declared, as they will still be able to create the variables that store the data types of information. They are defaulted to being decimal numerical values, but they can be changed with the as. function. This makes it considered a weakly-typed language. R is also a dynamically typed language. This means that type checks are done when it is run.
 
-Examples of how some are represented are listed below:
+Examples of how some of the data types are represented are listed below:
 
 * <b>In R, the default data type are decimal numerical values.</b> Whether a float or an int is assigned as the value for the variable, it is a "numeric" value.
 
