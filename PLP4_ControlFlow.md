@@ -302,7 +302,7 @@ The output is:
 ```
 For i is within range of 1 to 6, if i is less than 5, it'll skip the following statements after it and restart the for loop. i will still iterate and go up 1 value. It will continue to restart/go through next, until i is greater than or equal to 5 within the i in 1 to 6. That is why the output is only displaying 5 and 6.
 <br><br>
-<b>In the seperate downloadable R file I have provided, you can run each of these program control codes and see it work in that manner.</b>
+<b>In the seperate downloadable R file I have provided, you can run each of these program control codes and see it work in that manner. Click here to be brought to the [code](https://github.com/hilary-chen/RTutorial/blob/master/PLP4-FlowProgControlR.R).</b>
 
 #SOURCES
 * Andrie de Vries & Joris Meys. *R for Dummies (2nd ed.)*. John Wiley & Sons, 2015. 
