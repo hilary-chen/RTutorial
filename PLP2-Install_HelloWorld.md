@@ -41,6 +41,11 @@ To output "Hello, World" in R is very straight-forward.
 ```R
 cat("Hello, World!")
 ```
+Or, you can also do:
+```
+print("Hello, World!")
+```
+
 **Insert Comments**
 
 To write comments in R, a number sign (#) is used in front of the line.
