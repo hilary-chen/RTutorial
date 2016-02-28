@@ -1,6 +1,6 @@
 #R
 
-R does support the user of if/else statements, certain kinds of loops (for, while, repeat), something similar to switch-case statements, as well as break and next statements. For more information, they are listed below. Also, a seperate download R file is available to download to see it run. The link is provided [here] (https://github.com/hilary-chen/RTutorial/blob/master/flowProgControlR.R).
+R does support the user of if/else statements, certain kinds of loops (for, while, repeat), something similar to switch-case statements, as well as break and next statements. For more information, they are listed below. Also, a seperate download R file is available to download to see it run. The link is provided [here] (https://github.com/hilary-chen/RTutorial/blob/master/FlowProgControlR.R).
 
 #IF/ELSE STATEMENTS - ONE CONDITION
 In R, if/else statements are available for use. If there is only one condition, it is very simple. 
