@@ -1,6 +1,6 @@
 #R
 
-R does support the user of if/else statements, certain kinds of loops, switch-case statements, as well as break and continue statements. For more information, they are listed below. Also, a seperate download R file is available to download to see it run. The link is provided here:
+R does support the user of if/else statements, certain kinds of loops (for, while, repeat), switch-case statements, as well as break and continue statements. For more information, they are listed below. Also, a seperate download R file is available to download to see it run. The link is provided here:
 
 #IF/ELSE STATEMENTS - ONE CONDITION
 In R, if/else statements are available for use. If there is only one condition, it is very simple. 
@@ -23,7 +23,6 @@ Because x is less than or equal to 3 (it is 2), the output will be:
 x is less than or equal to 3.
 ```
 
-
 Adding an else is very straight-forward as well and is similar to Java. I will change the condition in the if to better display this:
 ```R
 x<-2
@@ -34,6 +33,7 @@ if(x>=3){
   cat("x is not greater than or equal to 3.")
 }
 ```
+
 Because x is not greater than or equal to 3, it will not print the statement in the if; instead, if will print the statement in the else:
 ```R
 x is not greater than or equal to 3.
@@ -148,7 +148,7 @@ This means the value based on the if/else statement for def is 99 because abc is
 <b>In the seperate downloadable R file I have provided, you can run each of these program control codes and see it work in that manner.</b>
 
 #SOURCES
-* R Programming if...else statement. http://www.programiz.com/r-programming/if-else-statement. Accessed Feb. 20, 2016.
+* R Programming if...else statement. http://www.programiz.com/r-programming/if-else-statement. Accessed Feb. 23, 2016.
 
 * Andrie de Vries & Joris Meys. *R for Dummies (2nd ed.)*. John Wiley & Sons, 2015. 
 
@@ -157,3 +157,4 @@ This means the value based on the if/else statement for def is 99 because abc is
 * Ihaka, Ross. [*The R Project: A Brief History and Thoughts About the Future.*](https://www.stat.auckland.ac.nz/~ihaka/downloads/Massey.pdf) PDF. The University of Auckland. Accessed Jan. 22, 2016.
 
 * The R Project for Statistical Computing. https://www.r-project.org/. Accessed Jan. 2
+* Fanara, Carlo. A Tutorial on Loops in R - Usage and Alternatives. July 23, 2015.  https://www.datacamp.com/community/tutorials/tutorial-on-loops-in-r. Accessed Feb. 23
