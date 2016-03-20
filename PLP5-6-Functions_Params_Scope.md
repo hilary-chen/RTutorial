@@ -26,7 +26,7 @@ add5<-function(a){
 add5(x)
 ```
 
-#PASSING IN PARAMETERS
+#PASSING IN PARAMETERS AND RETURNING
 The functions in R can accept multiple parameters. In the previous example, function <i>add5</i> only takes in one parameter. However, here is an example that will take multiple paramters, some of different types:
 ```R
 createDescription<-function(name,year,school){
