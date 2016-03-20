@@ -3,14 +3,13 @@
 The use of functions will improve the functionality of R programs immensely, but it is also important to understand the concepts of scope and paramters within R when creating these functions.
 
 #SYNTAX OF DECLARING FUNCTIONS
-The syntax for declaring functions in R is very similar to other popular programming languages. An example of a function declaration is provided:
+The syntax for declaring functions in R is very similar to other popular programming languages. The syntax in R requires that a function be named, then is followed by <i><-</i>, the keyword <i>function</i>, a set of parathenses (), a starting curly brace {, the statements/actions that you want the function to do, then an ending curly brace }. An example of a function declaration is provided:
 ```R
 add5<-function(a){
   a=a+5
   return(a)
 }
 ```
-In this example, a function 'add5' is created. The syntax in R requires that a function be named, then is followed by '<-', , the keyword 'function', a set of parathenses (), a starting curly brace {, the statements/actions that you want the function to do, then an ending curly brace }.
 
 
 
