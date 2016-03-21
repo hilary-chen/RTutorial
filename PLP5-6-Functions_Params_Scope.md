@@ -196,6 +196,15 @@ As you can see, even though we made y equal x, after the function changes the va
 
 R is not in its entirety passed by value. The parts of R that are actually passed by reference are R Environments, symbols, specials, and built-ins. The reason why these are considered passed by reference are because they contain attributes that can be modified. Since we are only in the beginning steps of learning R, we do not have to worry about this yet. 
 
+#LAST EXAMPLE
+Here is one last example similar to previous one, but this one will use arrays. After doing further research, you can make arrays with array(), but you will need to know the dimensions. For this example, I will just be using <-c().
+```R
+x (before) is 6
+y (before) is 6
+x (after) is 36
+y (after) is  6
+```
+
 #SOURCES
 * Andrie de Vries & Joris Meys. *R for Dummies (2nd ed.)*. John Wiley & Sons, 2015. 
 
