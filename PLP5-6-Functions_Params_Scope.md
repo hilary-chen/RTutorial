@@ -134,7 +134,7 @@ The output is:
 ```
 This shows that the value of x is getting updated from the loop.
 
-However, this is not the same as in functions. In this example, I will create a function that will also take in the value of x as a parameter. However, I will not return x. Instead, I will print x within the main body and see what the resulting value of x is.
+This is the same in functions. In this example, I will create a function that will also take in the value of x as a parameter. However, I will not return x. Instead, I will print x within the main body and see what the resulting value of x is.
 ```R
 x<-6
 
