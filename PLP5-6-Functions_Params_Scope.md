@@ -63,7 +63,7 @@ Error in createDescription("Buffy", 1981, "U.C. Sunnydale") :
   unused argument (U.C. Sunnydale")
 ```
 
-Furthermore, it is also important to know that in R, the functions cannot return multiple values at the same--which is a disadvatange. For example, if we changed the code slightly for <i>createDescription</i> to include return statements:
+Furthermore, it is also important to know that in R, the functions cannot return multiple values at the same time--which is a disadvatange. For example, if we changed the code slightly for <i>createDescription</i> to include return statements:
 ```R
 createDescription<-function(name,year,school){
   age=2016-year
