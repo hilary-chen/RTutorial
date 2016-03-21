@@ -199,11 +199,19 @@ R is not in its entirety passed by value. The parts of R that are actually passe
 #LAST EXAMPLE
 Here is one last example similar to previous one, but this one will use arrays. After doing further research, you can make arrays with array(), but you will need to know the dimensions. For this example, I will just be using <-c().
 ```R
-x (before) is 6
-y (before) is 6
-x (after) is 36
-y (after) is  6
+a<-c("c","a","t")
+b<-c("d","o","g")
+a=b
+b[2]="u"  #in R, it does not start at 0, it starts at 1
+cat(a)
+cat(b)
 ```
+The output is:
+```R
+d o g
+d u g
+```
+After declaring a and b, a is then set to equal b. The value at index 2 (or the 2nd char) in b is changed to "u." When a and b are printed, you can see that even though b has changed, a did not change with it. Again, similar to the previous example, this reiterates that R is pass by value, because the reference to memory did not change for b, because if it did, a would also result in <i>d u g</i>.
 
 #SOURCES
 * Andrie de Vries & Joris Meys. *R for Dummies (2nd ed.)*. John Wiley & Sons, 2015. 
