@@ -150,7 +150,7 @@ The output is:
 ```R
 36
 ```
-The value of x is still the same! How about if we did have a return statement in the function?
+The value of x changed! How about if we did have a return statement in the function?
 ```R
 x<-6
 
